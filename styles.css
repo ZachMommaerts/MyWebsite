@@ -1,0 +1,84 @@
+* {box-sizing: border-box;}
+
+h1{
+    color: rgb(255, 115, 21)
+}
+
+body{
+    background-color: slateblue;
+    background-image: -webkit-linear-gradient(0deg, rgb(46, 47, 48) 33%, #004E95 33%);
+    min-height: 1000px;
+}
+.aboutme{
+    background-color: rgb(214, 197, 42);
+    color:#FFF;
+    border-color: transparent;
+}
+.aboutme:hover, .aboutme:focus, .aboutme:active, .aboutme.active, .open>.dropdown-toggle.aboutme {
+    color: #fff;
+    background-color: #f8e800;
+    border-color: transparent;
+}
+.github{
+ 
+    background-color: rgb(218, 112, 7);
+     
+    color:#FFF;
+     
+    border-color: transparent;
+     
+}
+.github:hover, .github:focus, .github:active, .github.active, .open>.dropdown-toggle.github {
+    color: #fff;
+    background-color: #ff9100;
+    border-color: transparent;
+}
+.linkedin{
+    height: auto;
+    position: absolute;
+    clip-path: polygon(0 0, 95% 0, 50% 100%, 0 100%);
+    background-color: rgb(3, 153, 240);
+         
+    color:#FFF;
+         
+    border-color: transparent;
+         
+}
+.linkedin:hover, .linkedin:focus, .linkedin:active, .linkedin.active, .open>.dropdown-toggle.linkedin {
+    color: #fff;
+    background-color: #00e8f8;
+    border-color: transparent;
+    clip-path: polygon(0 0, 95% 0, 50% 100%, 0 100%);
+}
+.mail{
+    position: relative;
+    margin-left: 102px;
+    clip-path: polygon(45% 0, 100% 0, 100% 100%, 5% 100%);
+    background-color: rgb(207, 3, 3);
+         
+    color:#FFF;
+         
+    border-color: transparent;
+         
+}
+.mail:hover, .mail:focus, .mail:active, .mail.active, .open>.dropdown-toggle.mail {
+    color: #fff;
+    background-color: #ff3737;
+    border-color: transparent;
+    clip-path: polygon(45% 0, 100% 0, 100% 100%, 5% 100%)
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.padding-0{
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px
+}
+.big-icon{
+    font-size: 216px;
+}
+
